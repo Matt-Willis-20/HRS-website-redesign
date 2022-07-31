@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HRS Homepage</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+        <!-- font awesome icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <header>
+            <nav class="main-nav">
+                <a class="logo-container">
+                  <p class="logo">H.R.S</p> 
+                </a>
+                <div class="nav-items">
+                    <a class="nav-item" href="#">
+                        <p>Home</p>
+                    </a>
+                    <a class="nav-item" href="#">
+                        <p>Submit a query</p>
+                    </a>
+                    <a class="nav-item" href="#location">
+                        <p>Location</p>
+                    </a>
+                    <a class="nav-item" href="#">
+                        <p>Call Us Now</p>
+                    </a>
+                    <a class="nav-item" href="#">
+                        <p>Book Service / MOT</p>
+                    </a>
+                </div>
+                <div class="burger-container">
+                    <i class="fa-solid fa-bars burger"></i>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section class="hero-section">
+                    <div class="hero-container">
+                        <div class="title-container">
+                            <h1 class="title">service center<br>and<br> MOT testing</h1>
+                        </div>
+                        <div class="hero-info-container">
+                        <div class="hero-list-container">
+                            <ul class="hero-features-list">
+                                <li class="hero-feature">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Fully equipped service centre</span>
+                                </li>
+                                <li class="hero-feature">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>All makes and models</span>
+                                </li>
+                                <li class="hero-feature">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Light commercial vehicles</span>
+                                </li>
+                                <li class="hero-feature">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>MOT classes 1, 2, 4, 5, and 7</span>
+                                </li>
+                                <li class="hero-feature">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>Motorcycling MOT testing</span>
+                                </li>
+                                <li class="hero-feature">
+                                    <i class="fa-solid fa-check"></i>
+                                    <span>5-star customer reviews</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="btn-container">
+                            <button class="call">call us now</button>
+                            <button class="book">Book a Service / MOT</button>
+                        </div>
+                    </div>
+                </div>
+            <section id="services">
+                <div class="services-container">
+                    <div class="service vehicle-service">
+                        <div class="service-text-container">
+                            <div class="service-txt">
+                                <p>Vehicle Service</p>
+                                <p>From £75</p>
+                            </div>
+                            <button class="service-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="service mot-service">
+                        <div class="service-text-container">
+                            <div class="service-txt">
+                                <p>Vehicle MOT</p>
+                                <p>From £20</p>
+                            </div>
+                            <button class="service-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="service tyre-service">
+                        <div class="service-text-container">
+                            <div class="service-txt">
+                            <p>Tyre Fitting</p>
+                            <p>From £20</p>
+                        </div>
+                            <button class="service-btn">Book Now</button>
+                        </div>
+                    </div>
+                    <div class="service repair-service">
+                        <div class="service-text-container">
+                            <div class="service-txt">
+                            <p>Vehicle Repairs</p>
+                            <p>Price on request</p>
+                        </div>
+                            <button class="service-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            </section>
+            <section id="quote">
+            <div class="quote-container">
+                <blockquote>'Amazing service from the whole team!'</blockquote>
+                <div class="stars-container">
+                    <div class="star-container">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="star-container">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="star-container">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="star-container">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="star-container">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <form action="" class="contact-us">
+            <div class="form-row">
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="form-row">
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option value="Repair Work">Repair Work</option>
+                    <option value="MOT only">MOT only</option>
+                    <option value="Service only">Service only</option>
+                    <option value="Service and MOT">Service and MOT</option>
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <label for="">Message:</label>
+            <input type="text">
+            <input type="submit">
+        </form>
+            <section id="location">
+
+        <div class="location-container">
+                <div class="address-container">
+                    <address class="address">
+                        <span class="large-text">Address:</span><br>
+                        <div class="address-details">
+                        326 Hitchin Road<br>
+                        Luton<br>
+                        LU2 7SR<br>
+                    </div>
+                        <span class="large-text">Phone Number:</span><br>
+                        <a href="tel:+441582456333">01582 456 333</a>
+                    </address>
+                </div>
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9849.365169429982!2d-0.4016785!3d51.8912355!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x703ea9cc550454fb!2sH%20R%20S%20(Luton)%20Ltd!5e0!3m2!1sen!2suk!4v1657979692509!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+            </section>
+            
+            
+            <section class="images-container">
+            </section>
+            
+        </main>
+        <footer>
+            
+        </footer>
+        <script src="/script.js"></script>
+    </body>
+</html>
